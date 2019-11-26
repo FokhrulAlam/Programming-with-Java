@@ -1,20 +1,33 @@
 
 public class SelectorDemo {
-// ternary operator
-// condition?expr1:expr2
+// switch
+	
 	public static void main(String[] args)
 	{
-		int a=2;
-		int b=0;
+		char a=2;
 		
-//		if (a>4)
-//			b=1;
-//		else
-//			b=2;
+		switch(a)
+		{
+		case 1:
+			System.out.println("One");
+			break;
+		case 2:
+			System.out.println("Two");
+			break;
+		case 3:
+			System.out.println("Three");
+			break;
+		case 4:
+			System.out.println("Four");
+			break;
+		case 5:
+			System.out.println("Five");
+			break;
+		default:
+			System.out.println("None of the above");
 		
-		b=a>4?1:2;	//if a>b is true, 1 is assigned to c
+		}
 		
-		System.out.println(b);
 	}
 
 }
