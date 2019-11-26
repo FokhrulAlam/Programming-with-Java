@@ -1,2 +1,14 @@
 
 
+NOTE: Ternary operator
+  condition?expr1:expr2
+  a=7
+  b=2
+  
+  if(a>3)
+    b=5
+  else
+    b=4
+    
+  Instead of the above if statements, we can simply use:
+  b=a>3?5:4
