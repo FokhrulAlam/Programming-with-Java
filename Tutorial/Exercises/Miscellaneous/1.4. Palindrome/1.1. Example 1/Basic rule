@@ -1,0 +1,11 @@
+
+int n=the original number;   Say, n=123
+r=remainder
+s=number in reverse; initially s=0
+
+Steps: while n != 0
+  1. r = n % 10     ;  r = 123 % 10 = 3
+  2. n = n / 10; New value of n >>> n = 123 / 10 = 12
+  3. s = (sx10)+r;  s= 0x10+3=3
+  
+  This process will continue till n>0
