@@ -1,0 +1,6 @@
+# Constructor has the same name as the class
+# Constructor can not be explicitly called
+# Constructor does not return anything
+# Constructor is used to allocate space to objects, in heap memory.
+# Multiple constructor can be created in a single class.
+# By default, a constructor is created whenever we create a new class.
