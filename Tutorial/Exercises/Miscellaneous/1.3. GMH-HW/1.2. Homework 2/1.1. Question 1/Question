@@ -1,0 +1,7 @@
+Write a Java program that performs addition, subtraction, multiplication and division based on the user input (you can use java.util.
+Scanner class to take input). The program takes the value of both the numbers (entered by user) and then user is asked to enter the 
+operation (+, -, * and /), based on the input program performs the selected operation on the entered numbers using switch case.
+
+NOTE: Do it creating a class
+
+Write a Java Program that calculates the factorial of a number. Input can be taken from user.
