@@ -1,0 +1,11 @@
+
+
+# An abstract method should be in an abstract class.
+# An abstract class does not necessarily need an abstract method. Concrete method can be there.
+# We can not create an object from an abstract class.
+
+# Abstract methods are declared, not defined. We want this feature. But we do not know how to implement.
+  public abstract void sum();
+  
+# If a new class inherits the abstract class, all the abstract methods in the super class should be defined in the sub class.
+# If the sub class can not define all the abstract methods of the super class, the sub class should be abstract too.
