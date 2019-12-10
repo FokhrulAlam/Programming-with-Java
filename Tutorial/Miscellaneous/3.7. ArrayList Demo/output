@@ -1,0 +1,13 @@
+
+[4, 6, 1, 8, 5]
+Using for each loop: 
+ 4 6 1 8 5
+Using Iterator: 
+ 4 6 1 8 5
+In ascending order: [1, 4, 5, 6, 8]
+In descending order: [8, 6, 5, 4, 1]
+After removing the last element: 
+[8, 6, 5, 4]
+After removing all the elements: 
+[]
+The ArrayList is empty: true
