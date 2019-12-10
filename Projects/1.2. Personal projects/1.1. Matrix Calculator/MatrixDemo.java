@@ -14,11 +14,11 @@ public class MatrixDemo {
         public static void main(String[] args){
             Scanner number = new Scanner(System.in);
             //Enter number of rows of the matrix
-            System.out.println("Number of rows: ");
+            System.out.print("Number of rows: ");
             rows = number.nextInt();
 
             //Enter number of columns of the matrix
-            System.out.println("Number of columns: ");
+            System.out.print("Number of columns: ");
             columns = number.nextInt();
 
             //Initializing two matrices A & B
@@ -35,6 +35,7 @@ public class MatrixDemo {
             System.out.println("Enter the values of matrix A: ");
             for (int row=0;row<=rows-1;row++){
                 for (int column=0;column<=columns-1;column++){
+                    System.out.printf("A[%d][%d] = ",row,column);
                     A[row][column] = number.nextInt();
                 }
             }
@@ -43,26 +44,27 @@ public class MatrixDemo {
             System.out.println("Enter the values of matrix B: ");
             for (int row=0;row<=rows-1;row++){
                 for (int column=0;column<=columns-1;column++){
+                    System.out.printf("B[%d][%d] = ",row,column);
                     B[row][column] = number.nextInt();
                 }
             }
 
             //print matrix A
-            System.out.println("Matrix A is below: ");
+            System.out.print("\nA =\t\t");
             for (int row=0;row<=rows-1;row++){
                 for (int column=0;column<=columns-1;column++){
-                    System.out.print(A[row][column]+" ");
+                    System.out.print(A[row][column]+"\t");
                 }
-                System.out.println();
+                System.out.print("\n\t\t");
             }
 
             //print matrix B
-            System.out.println("Matrix B is below: ");
+            System.out.print("\nB =\t\t");
             for (int row=0;row<=rows-1;row++){
                 for (int column=0;column<=columns-1;column++){
-                    System.out.print(A[row][column]+" ");
+                    System.out.print(A[row][column]+"\t");
                 }
-                System.out.println();
+                System.out.print("\n\t\t");
             }
 
             //Call operations methods in class MatrixOperation
@@ -83,16 +85,16 @@ public class MatrixDemo {
             //Call methods ShowMatrixOpsOutput class to show the output
             ShowMatrixOpsOutput output = new ShowMatrixOpsOutput();
             //Pass individual matrix to the method and print result
-            System.out.println("\t\t//A + B\\\\");
+            System.out.print("\nA + B =\t\t");
             output.showOutput(sumAB);
 
-            System.out.println("\t\t//A - B\\\\");
+            System.out.print("\nA - B=\t\t");
             output.showOutput(differenceAB);
 
-//            System.out.println("\t\t//A x B\\\\");
+//            System.out.println("\nA x B\t\t");
 //            output.showOutput(productAB);
 
-            System.out.println("\t\t//A / B\\\\");
+            System.out.print("\nA / B\t\t");
             output.showOutput(quotientAB);
         }
 
