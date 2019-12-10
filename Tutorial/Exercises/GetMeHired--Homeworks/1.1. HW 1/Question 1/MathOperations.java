@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HwOne1 {
+public class MathOperations {
     public static void main(String[] args){
         Scanner math = new Scanner(System.in);
 
