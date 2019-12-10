@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class HwOne2 {
+public class Factorial {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter a positive whole number: ");
