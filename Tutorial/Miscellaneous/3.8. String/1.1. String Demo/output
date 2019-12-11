@@ -1,0 +1,14 @@
+s2 = Fokhrul alam
+s1 is not equal to s2
+Ignoring case-sitivity: s1 equals to s2
+s2 does not contain hf
+s1 is not empty
+Concatenating s1 and s2: Fokhrul AlamFokhrul alam
+Uppercase s1: FOKHRUL ALAM
+Lowercase s2: fokhrul alam
+s1 starts with F
+The character at index 2 in s1: k
+The first index of k in s1: 2
+The last index of k in s1: 2
+The ASCII value of r in s2: 114
+#Fokhrul#Alam
