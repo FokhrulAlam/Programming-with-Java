@@ -1,7 +1,7 @@
 package programmingwithjava.tutorial.miscellaneous;
 
-
-public class Practice {
+// we will find factorial of 5.
+public class RecursionDemo {
     public static void main(String[] args){
         int a = 5;
 
