@@ -10,11 +10,11 @@ public class RecursionDemo {
 
     }
     static int recursive(int a){
-        if (a ==1){
+        if (a ==1){     //base case
             return 1;
         }
         else{
-            return a*recursive(a-1);
+            return a*recursive(a-1);    // recursive call
         }
     }
 }
