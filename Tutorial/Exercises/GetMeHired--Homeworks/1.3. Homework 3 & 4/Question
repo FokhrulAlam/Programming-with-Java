@@ -1,0 +1,6 @@
+1. Extend HW2 with creating an abstract class (CalculatorBase) which is going to have an abstract method Calcultae(). 
+  Create 4 class that extends this class and does proper operations. 
+  Use another separate class to hold main method and I/O.
+  
+  
+2. Explain when to use Abstract Class vs Interface when designing classes.
