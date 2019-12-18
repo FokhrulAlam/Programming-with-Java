@@ -26,7 +26,7 @@ public class MathOperations {
          * We are using switch statements.
          */
         CalculatorBase obj;     //declaring a reference of CalculatorBase class.
-        double result;      //declaring an instance variable to hold the output.
+        double result;      //declaring a local variable to hold the output.
 
         switch (arithmeticOp){
             case "+":
